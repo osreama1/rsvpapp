@@ -2,4 +2,4 @@
 virtualenv rsvpapp --system-site-packages -v
 source rsvpapp/bin/activate
 pip install -r requirements.txt
-python tests/test_rsvpapp.py
+pytest tests/test_rsvpapp.py
